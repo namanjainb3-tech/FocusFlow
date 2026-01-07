@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="day">
+    <header>
+        <div class="header">
+            <h1 id="main-heading">My To-Do List</h1>
+            <button id="change-mode">Change mode</button>
+        </div>
+        
+        <div class="quotes-section">
+            <p id="quotes">Start now. Progress beats perfection.</p>
+        </div>
+    </header>
+
+    <main>
+        <div class="task-section">
+            <div class="add-task">
+                <button class="addbtn">
+                    Add task
+                </button>
+                <div class="input-task hide">
+                    <input type="text" placeholder="Enter your task here" class="input-text">
+                    <select class="priority-section">
+                        <option>Priority</option>
+                        <option id="High">High</option>
+                        <option id="Medium">Medium</option>
+                        <option id="Low">Low</option>
+                    </select>
+                    <button class="input-button">Add</button>
+                </div>   
+            </div>
+
+            <div class="viewTasksSection">
+                <button class="viewTasksBtn addbtn">
+                    View your tasks
+                </button>
+                <p id="Disclaimer" class="hide">No tasks yet. Add one🚀</p>
+                <div class="tasks hide">
+                    <ul class="viewTasksList">
+                    </ul>
+                </div>
+
+                <div class="clear-section">
+                    <button class="clear-button hide">
+                        Clear all
+                    </button>
+                </div>
+
+                <div class="Task-Tracker hide">
+                    <p id="taskCount">Total Tasks:0</p>
+                    <p id="Completed">Completed:0</p>
+                    <p id="Remaining">Remaining:0</p>
+                </div>
+
+                <div class="task-complete-section hide">
+                    <p>🎉 Congratulations!! All Tasks Completed 🎉</p>
+                </div>
+            
+            </div>
+
+            <div class="live-clock" id="liveClock">
+                    00:00:00
+            </div>
+
+            <div class="greeting-msg">
+                Hello Naman,<br>
+                Let's get started
+            </div>
+        
+        </div>
+    </main>
+    
+    <script src="To-Do-App.js"></script>
+</body>
+</html>
