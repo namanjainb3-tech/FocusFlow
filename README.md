@@ -4,6 +4,8 @@ A Mood-Based Productivity App
 FocusFlow is a feature-rich, mood-based productivity app built using HTML, CSS, and Vanilla JavaScript.
 It helps users manage tasks efficiently with priority sorting, real-time tracking, motivational quotes, and adaptive day/night focus modes — all designed to encourage consistency and focus.
 
+Live Demo: https://namanjainb3-tech.github.io/FocusFlow/
+
 ✨ Features
 📝 Task Management
 
