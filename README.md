@@ -126,3 +126,41 @@ CSS – Styling & responsive layout
 JavaScript (Vanilla) – Logic, state management & interactivity
 
 No frameworks. No libraries. Pure fundamentals.
+
+Learning Outcomes
+
+This project demonstrates:
+
+DOM manipulation
+
+Event handling
+
+State-driven UI updates
+
+Sorting and filtering logic
+
+UX-focused feature design
+
+Clean and modular JavaScript code
+
+📌 Future Enhancements
+
+LocalStorage support for persistence
+
+Mobile responsiveness improvements
+
+Task categories and filters
+
+Statistics dashboard
+
+Deployment using GitHub Pages
+
+🧠 Author
+
+Naman Jain
+Engineering student | Passionate about building real-world applications
+Learning by building. One project at a time 🚀
+
+⭐ If you like this project
+
+Give it a ⭐ and feel free to fork or improve it!
